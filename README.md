@@ -2,7 +2,7 @@
 
 # Date Base
 
-AI：AutoincrementをOFFにして、U：UniqueをONにすると、IDが連番飛ばしにならない
+AI=AutoincrementをOFFにして、U=UniqueをONにするとIDが連番飛ばしではなくなる
 
 ![default](https://user-images.githubusercontent.com/28942665/34861030-19108872-f7a5-11e7-9f11-5fbf211cd5db.JPG)
 
