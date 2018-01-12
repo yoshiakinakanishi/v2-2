@@ -32,6 +32,7 @@ app.use('/transmit/reservation', transmit);
 app.use('/transmit/done', transmit);
 app.use('/transmit/confirm', transmit);
 app.use('/transmit/web', transmit);
+app.use('/transmit/db', transmit);
 
 
 // catch 404 and forward to error handler

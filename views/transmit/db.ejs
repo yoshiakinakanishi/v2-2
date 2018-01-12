@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+    <body class="body">
+        <head>
+            <h1><%= title %></h1>
+        </head>
+
+        <div role="main">
+
+            <table class="table">
+
+                <thead>
+                <tr>
+                    <th class="th">id</th>
+                    <th class="th">配信日時</th>
+                    <th class="th">タイトル</th>
+                    <th class="th">本文</th>
+                    <th class="th">ディープリンク(PC)</th>
+                    <th class="th">ディープリンク(SP)</th>
+                    <th class="th">TTL</th>
+                </tr>
+                </thead>
+
+                <% for(var i in content) { %>
+                <tr>
+                    <% var obj = content[i]; %>
+                    <th class="id"><%= obj.id %></th>
+                    <td class="db"><%= obj.date %></td>
+                    <td class="db"><%= obj.title %></td>
+                    <td class="db"><%= obj.text %></td>
+                    <td class="db"><%= obj.deeplink_pc %></td>
+                    <td class="db"><%= obj.deeplink_sp %></td>
+                    <td class="db"><%= obj.ttl %></td>
+                </tr>
+                <% } %>
+
+            </table>
+            
+        </div>
+
+      <div class="back">
+          <a href="<%= link_transmit_back.href %>"><%= link_transmit_back.text%></a>
+      </div>
+
+    </body>
+</html>

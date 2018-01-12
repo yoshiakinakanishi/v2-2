@@ -259,3 +259,39 @@ ul {
   color: deeppink;
   font-size: 17px; 
 }
+
+/*-- transmit/db.ejs --*/
+
+.body {
+  padding: 30px 60px;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.th {
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.id {
+  background-color: #fff;
+  box-shadow: 0 9.5px 5px -10px #a0a0a0 inset;
+  padding: 10px;
+  font-size: small;
+}
+
+.db {
+  background-color: #fff;
+  box-shadow: 0 9.5px 5px -10px #a0a0a0 inset;
+  padding: 10px 30px;
+  font-size: small;
+}
+
+.back {
+  margin-top: 30px;
+}
